@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Developer Job Form"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:hint="Enter your name here"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age here"/>
+
+    <EditText
+        android:id="@+id/etJob"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:hint="What type of job you want to do here"
+        android:layout_height="wrap_content"/>
+    <Button
+           android:id="@+id/btn1"
+         android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
